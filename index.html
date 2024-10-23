@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello React</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <h2>Hello Top of ROOT </h2>
+
+    <div id="root">
+        <h2>Hello World </h2>
+
+        <!-- whatever inside this root like line no 13 is getting replaced by whatever i passing inside the render method
+         replaced not appended -->
+
+         <!-- if i write anything top of div root or bottom of the div root then it is showing
+          because React is only working insde div root -->
+    </div>
+
+    <h2>Hello bottom of ROOT </h2>
+
+    <!-- <script>
+
+        const heading = document.createElement("h2");//...this h2 tag helps to write h2 elements 
+        //if i want to write h3 then i pass only h3 between this ("..").so this helps what tag i want to create 
+        //......createElements helps to create elemnets for me
+        heading.innerHTML = "Welcome to the Javascript World";
+        const root = document.getElementById("root");
+        root.appendChild(heading);
+
+    </script> -->
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <script src="./App.js">
+     
+    </script>
+
+</body>
+
+</html>
